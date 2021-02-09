@@ -1,0 +1,65 @@
+.producer-container {
+    border: 1px solid gray;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.producer-title,
+.producer-topic,
+.new-message-container,
+.send {
+    margin-top: 20px;
+}
+
+.send {
+    margin-bottom: 30px;
+}
+
+.producer-title,
+.producer-topic {
+    font-family: sans-serif;
+}
+
+.new-message {
+    width: 300px;
+}
+
+.topic-name {
+    /*TODO*/
+}
+
+.vertical-line {
+    border: 1px solid black;
+}
+
+.consumer-container {
+    border: 1px solid gray;
+    background-color: #b4e666;
+    display: flex;
+    justify-content: space-around;
+}
+
+.consumer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messages-list {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 20px 30px;
+    background-color: #c6b0fc;
+    overflow-y: auto;
+}
+
+.consumer-topic {
+    font-size: 20px;
+    font-family: sans-serif;
+}
